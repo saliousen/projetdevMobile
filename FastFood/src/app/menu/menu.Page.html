@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+     Accueil
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-img src="../../assets/restaurant.jpg"></ion-img>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-img src="../../assets/restaurant.jpg"></ion-img>
+      <ion-card-subtitle style="text-align: center;">Restaurant</ion-card-subtitle>
+      <ion-card-title>Bienvenue</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>votre restaurant pour tous plats</p>
+    </ion-card-content>
+  </ion-card>
+
+
+  <ion-list lines="none">
+
+    <ion-item routerLink="/restaurants">
+      <ion-icon slot="start" color="medium" name="restaurant"></ion-icon>
+      <ion-label>Restaurants</ion-label>
+    </ion-item>
+
+  </ion-list>
+    
+</ion-content>
